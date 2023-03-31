@@ -1,0 +1,91 @@
+body{
+    /* background-image: linear-gradient(45deg, white, green); */
+    /* width: 100vw; */
+    background-image:linear-gradient(45deg,white,skyblue);
+}
+
+.container{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: whitesmoke; */
+    margin-top: -50px;
+    width: 100vw;
+}
+
+.form-group{
+    margin-bottom: 12px;
+}
+
+.form-group input, button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+
+
+.errors{
+    /* background-color: rgb(227, 148, 148); */
+    color: rgb(86, 10, 10);
+    margin-bottom: 12px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#regbtn{
+    width: 115%;
+    background-color: dodgerblue;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#regbtn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#loginbtn{
+    width: 110%;
+    background-color: dodgerblue;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#loginbtn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+h2{
+    /* background-color: black; */
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 33px;
+    color: black;
+    /* margin-top: -30px; */
+
+}
+
+#st{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.session{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
